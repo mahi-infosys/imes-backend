@@ -1,0 +1,22 @@
+{
+    "name": "imes-backend",
+    "version": "1.0.0",
+    "description": "Express server gateway with AWS integration",
+    "scripts": {
+        "start": "node server.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "amazon-cognito-identity-js": "^6.3.12",
+        "aws-sdk": "^2.1692.0",
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "express-session": "^1.18.1",
+        "openid-client": "^5.7.0",
+        "path": "^0.12.7"
+    },
+    "resolutions": {},
+    "overrides": {}
+}
